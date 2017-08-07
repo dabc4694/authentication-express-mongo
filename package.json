@@ -1,0 +1,24 @@
+{
+  "name": "authentication-express-mongo",
+  "version": "1.0.0",
+  "description": "Project code to support the [Treehouse](https://teamtreehouse.com) course [User Authentication With Express and Mongo](https://teamtreehouse.com/library/user-authentication-with-express-and-mongo)",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darshan4694/authentication-express-mongo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/darshan4694/authentication-express-mongo/issues"
+  },
+  "homepage": "https://github.com/darshan4694/authentication-express-mongo#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "pug": "^2.0.0-rc.3"
+  }
+}
