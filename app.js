@@ -1,6 +1,12 @@
 var express = require('express');
 var bodyParser = require('body-parser');
+var mongoose = require('mongoose');
 var app = express();
+
+mongoose.connect('mongodb://locahost:27017/bookApp', { useMongoClient: true });
+var db = mongoose.connection;
+
+db.on('errpr', console.error.bind(console, 'connection error:'));
 
 // parse incoming requests
 app.use(bodyParser.json());
