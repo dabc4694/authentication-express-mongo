@@ -1,7 +1,7 @@
 {
   "name": "authentication-express-mongo",
   "version": "1.0.0",
-  "description": "Project code to support the [Treehouse](https://teamtreehouse.com) course [User Authentication With Express and Mongo](https://teamtreehouse.com/library/user-authentication-with-express-and-mongo)",
+  "description":
   "main": "app.js",
   "scripts": {
     "start": "node ./app"
